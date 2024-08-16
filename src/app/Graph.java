@@ -37,7 +37,8 @@ class Graph {
         hasEdge(3, 2);
 
         // Видаляємо вершину по індексу із здвигом елементів до начала списка
-        removeVertex(3);
+        vertex = 3;
+        removeVertex(vertex);
         System.out.println("\n5) After removing vertex " + vertex);
         printGraph(list);
 
